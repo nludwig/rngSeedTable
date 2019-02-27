@@ -1,0 +1,14 @@
+RngSeedTable makes it easy to get random seeds
+for your python codes that need RNG seeds. It
+makes and manages a set of files in the current
+directory that contain a list of randomly generated
+seeds.
+
+Also included in this directory is an implementation
+of the pcg RNG, which is used by RngSeedTable to
+create the RNG seeds.
+
+main() in RngSeedTable has an example on how
+to use the method getSeed(n) to get n random
+seeds from the tables in the current directory
+(and the create or update these tables as necessary).
